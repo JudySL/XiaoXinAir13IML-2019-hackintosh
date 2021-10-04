@@ -1,6 +1,5 @@
 # XiaoXinAir13IML-2019-hackintosh
-# 联想小新 Air 13IML-2019
-
+# 联想小新 Air 13IML-2019 Hackintosh
 ## 电脑配置
 
 | 规格     | 配置                             | 备注                                    |
