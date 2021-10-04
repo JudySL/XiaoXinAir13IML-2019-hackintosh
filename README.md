@@ -19,11 +19,11 @@
 
 ## 使用说明
 
-* 使用前请务必按照黑果小兵关于[Air13IWL中隐藏BIOS推荐设置]([Lenovo-Air13-IWL-Hackintosh/ReadMe.md at master · daliansky/Lenovo-Air13-IWL-Hackintosh (github.com)](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md))操作。
+* 使用前请务必按照黑果小兵关于[Air13IWL中隐藏BIOS推荐设置](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md)操作。
 * 系统：自用macOS Catalina 10.15.7，稳定性较好，暂不打算升级至Big Sur或Monterey。
 * 处理器：自用i5-10210U (CPUID=0x806EC)，无需处理。其他请参考黑果小兵关于
 
-小新Pro13 Wiki中[<b>查看本机CPUID</b>]([查看本机CPUID · daliansky/XiaoXinPro-13-hackintosh Wiki (github.com)](https://github.com/daliansky/XiaoXinPro-13-hackintosh/wiki/查看本机CPUID))的相关说明
+小新Pro13 Wiki中[<b>查看本机CPUID</b>](https://github.com/daliansky/XiaoXinPro-13-hackintosh/wiki/查看本机CPUID)的相关说明
 
 * 显卡：自用为Intel集显 (0x9B41)，config.plist仿冒<kbd>device-id</kbd>:<kbd>3E9B</kbd>，注入<kbd>ig-platform-id</kbd>:<kbd>3E9B0000</kbd>。可修改为其他，具体参考驱动WhateverGreen.kext[英文说明]([WhateverGreen/FAQ.GeForce.en.md at master · acidanthera/WhateverGreen (github.com)](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.GeForce.en.md))或[中文说明](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.cn.md)。手边没有2K以上显示器，无法测试外接是否正常。独显版可借鉴这里[<b>显卡</b>]([Lenovo-Air13-IWL-Hackintosh/ReadMe.md at master · daliansky/Lenovo-Air13-IWL-Hackintosh (github.com)](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md))中的参数。
 * 硬盘：建议更换原装硬盘，仍希望使用PM981A安装可参考[该方法]([PM981a 吃上Big Sur-远景论坛-微软极客社区 (pcbeta.com)](https://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1867021))。硬盘需注意的问题可查看[这里的<b>安装部分</b>—<b>混搭硬盘</b>]([daliansky/XiaoXinPro-13-hackintosh: Lenovo XiaoXin Pro 13 2019 Hackintosh (github.com)](https://github.com/daliansky/XiaoXinPro-13-hackintosh))内容。
