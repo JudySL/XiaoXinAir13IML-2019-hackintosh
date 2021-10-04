@@ -1,1 +1,18 @@
-
+# v1.0
+## OC_2021-10-02
+* 驱动：
+    - AirportBrcmFixup：2.1.3
+    - AppleALC：1.6.5
+    - BrcmBluetoothInjector：2.6.0
+    - BrcmPatchRAM3：2.6.0
+    - CPUFriend：1.2.4
+    - ECEnabler：1.0.2
+    - Lilu：1.5.6
+    - NoTouchID：1.0.3
+    - NVMeFix：1.0.9
+    - SMCBatteryManager：1.2.7
+    - SMCProcessor：1.2.7
+    - VirtualSMC：1.2.7
+    - VoodooI2C：2.6.5
+    - VoodooPS2Controller：2.2.5
+    - WhateverGreen：1.5.3
