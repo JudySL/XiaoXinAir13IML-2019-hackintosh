@@ -38,4 +38,4 @@
 * [<b>黑果小兵</b>](https://github.com/daliansky)维护的[小新Air13IWL](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh)和[小新Pro13](https://github.com/daliansky/XiaoXinPro-13-hackintosh)
 * **宪武** 提供 [OC-little](https://github.com/daliansky/OC-little)
 * [<b>stevezhengshiqi</b>](https://github.com/stevezhengshiqi) 开发的 [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
-* [<b>litxia</b>](https://github.com/lietxia)维护的[小新Air-14 2019IML](
+* [<b>litxia</b>](https://github.com/lietxia)维护的[小新Air-14 2019IML](https://github.com/lietxia/XiaoXinAir14IML_2019_hackintosh)
