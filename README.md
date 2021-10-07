@@ -24,7 +24,7 @@
 小新Pro13 Wiki中[<b>查看本机CPUID</b>](https://github.com/daliansky/XiaoXinPro-13-hackintosh/wiki/查看本机CPUID)的相关说明
 * 显卡：自用为Intel集显 (0x9B41)，config.plist仿冒<kbd>device-id</kbd>:<kbd>3E9B</kbd>，注入<kbd>ig-platform-id</kbd>:<kbd>3E9B0000</kbd>。可修改为其他，具体参考驱动WhateverGreen.kext[英文说明](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.GeForce.en.md)或[中文说明](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.cn.md)。手边没有2K以上显示器，无法测试外接是否正常。独显版可借鉴这里[<b>显卡</b>](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/ReadMe.md)中的参数。
 * 硬盘：建议更换原装硬盘，仍希望使用PM981A安装可参考[该方法](https://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1867021)。硬盘需注意的问题可查看[这里的<b>安装部分</b>—<b>混搭硬盘</b>](https://github.com/daliansky/XiaoXinPro-13-hackintosh)内容。
-* 声卡：现阶段使用的是自编译AppleALC，注入ID为<kbd>Number</kbd>:<kbd>23</kbd>（<kbd>Data</kbd>:<kbd>17000000</kbd>）。如果存在3.5mm耳麦切换异常问题可安装[<b>ALCPlugFix</b>](https://github.com/daliansky/ALCPlugFix)声卡守护进程处理。
+* 声卡：现阶段使用的是自编译AppleALC，注入ID为<kbd>Number</kbd>:<kbd>23</kbd>（<kbd>Data</kbd>:<kbd>17000000</kbd>）。如果存在3.5mm耳麦切换异常问题可安装[<b>ALCPlugFix</b>](https://github.com/daliansky/ALCPlugFix)声卡守护进程处理。(已提交ID至官方AppleALC，预计下一版本可直接使用官方版)
 * Wi-Fi：已更换DW1820A。使用Intel无线网卡参考[<b>下面</b>](https://github.com/daliansky/XiaoXinPro-13-hackintosh/wiki/Intel网卡)的说明。
 * 该EFI大部分借鉴于黑果小兵的Air13IWL的EFI，仅供参考，相同机型可使用调试，不保证完美，具体请自行测试，之后主要以更新kext为主。
 
